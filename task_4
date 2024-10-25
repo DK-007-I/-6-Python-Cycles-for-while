@@ -1,0 +1,7 @@
+shop = ["Laptop", "Smartphone", "Watch", "Tablet", "Headphones"]
+
+for char in shop:
+    if char == "Laptop":
+        print("I'm buying this")
+    else:
+        print("i don't need it")
