@@ -1,0 +1,6 @@
+names = ["Richard", "Igor", "Jonathan", "Alice", "Mary", "Bonnie"]
+for char in names:
+     if char == "Bonnie":
+         print("Hello Bonnie !")
+         break
+     print(f"Hillo",  char , "!")
