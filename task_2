@@ -1,0 +1,4 @@
+phrase = "I'm learning cycles."
+
+for x in range(10):
+    print(phrase)
