@@ -1,0 +1,19 @@
+riddle = "я говорю без рта и слышу без ушей. у меня нет тела, но я оживаю с ветром что я?"
+correct_answer = "эхо"
+
+attempts_left = 3
+while attempts_left > 0:
+    answer = input(f" Попыток  {4 - attempts_left}: {riddle}")
+
+    if answer.lower() == correct_answer:
+        print("Правильно!")
+        break
+    else:
+        attempts_left -= 1
+        if attempts_left > 0:
+            print(f"Неверно! У вас осталось {attempts_left} попыток")
+        else:
+            print("Извините, у вас больше нет попыток! Правильный ответ - 'эхо'")
+
+
+
