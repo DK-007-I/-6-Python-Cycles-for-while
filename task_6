@@ -1,0 +1,13 @@
+num_count = int(input("Ведите кол-во чисел:"))
+
+numbers = []
+total_sum = 0
+
+
+for i in range(num_count):
+    num = float(input("Введите сами чисел:"))
+    numbers.append(num)
+    total_sum += num
+
+print(numbers)
+print(total_sum)
