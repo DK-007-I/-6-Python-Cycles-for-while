@@ -1,0 +1,20 @@
+def main():
+    while True:
+         go_tree = input("\n>").lower()
+
+         if go_tree == "w":
+             print("персонаж идёт вперёд")
+         elif go_tree == "a":
+               print("персонаж идёт влево")
+         elif go_tree == "s":
+               print("персонаж идёт назад")
+         elif go_tree == "d":
+               print("персонаж идёт вправо")
+         elif go_tree == "stop":
+               print("завершить программу")
+         else:
+              print("Неизвестная команда! Попробуйте снова")
+
+
+if __name__ ==  "__main__":
+    main()
